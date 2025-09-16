@@ -1,0 +1,42 @@
+﻿ <!-- HTML FORMS-->
+<h1 class="m1">Registration Page</h1>
+<form>
+
+    <input type="text" class="m2" placeholder="Enter Your Email" />
+<br />
+    <input type="text" class="m2" placeholder=" First Name" />
+    <br />
+    <input type="text" class="m2" placeholder="Last Name" />
+    <br />
+    <input type="password" class="m2" placeholder=" Password" />
+    <br />
+    <label>City</label>
+    <select>
+        <option>Amman</option>
+        <option>Irbid</option>
+        <option>Aqaba</option>
+    </select>
+    <br />
+    Male<input type="radio" name="a1" />
+    Female <input type="radio" name="a1" />
+    <br />
+    <label>Study Level</label>
+    BA<input type="checkbox" />
+    Master<input type="checkbox" />
+    PHD <input type="checkbox" />
+    <br />
+    <input type="button" onclick="fun1()" value="Save" />
+   <br />
+   <button onmouseover="fun2()"> try me</button>
+</form>
+
+<script>
+    function fun1() {
+        document.body.style.backgroundColor = "green";
+    }
+    
+    function fun2() {
+      alert("alert box!");
+    }
+    
+</script>
